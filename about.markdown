@@ -1,18 +1,16 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: default
+title: About Kobe Smallman
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## About Me
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hello, I'm Kobe Smallman, a dedicated and passionate Full Stack JavaScript Developer with a comprehensive background in web development technologies. I graduated with a diploma in Computer Information Technology from Lethbridge College, where I honed my skills across a range of programming languages and technical concepts.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+With hands-on experience in both technology sales and collaborative software development environments, I bring a well-rounded skill set to any team. My ability to communicate complex technical concepts and my conflict resolution skills are among my strongest assets.
 
+I am always eager to learn more and contribute to projects that align with my professional values and goals. 
 
-[jekyll-organization]: https://github.com/jekyll
+Thank you for visiting my portfolio site!
+
+[Download Resume](/assets/Kobes_resume_DONE.pdf)
