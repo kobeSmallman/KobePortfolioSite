@@ -9,15 +9,17 @@ title: Your Portfolio Title
   <a href="#contact" style="background: #3498db; color: white; padding: 10px 20px; display: inline-block; text-decoration: none; margin-top: 20px;">Let's Chat</a>
 </header>
 
+<section class="book-cover">
+  <div class="book-content">
+    <h2>Welcome to My Portfolio</h2>
+    <p>Explore my work and journey as a developer.</p>
+    <!-- You can add more content here -->
+  </div>
+</section>
+
 <section style="padding: 60px 0;">
   <h2 style="text-align: center; color: #333;">LATEST WORK</h2>
-  <div style="display: flex; overflow-x: auto; gap: 20px; padding: 20px;">
-    <!-- Your project cards go here -->
-    <div style="min-width: 300px; background: white; padding: 20px;">
-      <!-- Project content -->
-    </div>
-    <!-- Repeat for each project -->
-  </div>
+  <!-- Project cards go here -->
 </section>
 
 <main style="padding: 40px 0; background: #ecf0f1;">

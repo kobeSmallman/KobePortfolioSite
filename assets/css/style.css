@@ -54,3 +54,31 @@ footer {
 		footer a:hover {
 			text-decoration: underline;
 		}
+.book-cover {
+	width: 60%;
+	margin: 20px auto;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+	border: 1px solid #ccc;
+	background: #f7f7f7;
+	border-radius: 5px;
+	padding: 40px;
+	text-align: center;
+}
+
+	.book-cover .book-content {
+		padding: 1em;
+		border: 1px solid #ddd;
+		background: white;
+		margin: 10px;
+		box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+		border-radius: 3px;
+	}
+
+	.book-cover h2 {
+		margin: 0;
+		color: var(--color-primary);
+	}
+
+	.book-cover p {
+		color: var(--color-text);
+	}
