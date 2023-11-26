@@ -3,36 +3,47 @@ title: Kobe Smallman's Portfolio
 email: Kobe4smallman@gmail.com
 description: >-
   Welcome to my personal portfolio where I showcase my skills and projects. I am a Full Stack JavaScript Developer with a passion for creating seamless user experiences and efficient backend services.
+baseurl: "/KobePortfolioSite" # Matches the repository name
+ # If your site is going to be hosted at a subpath, change this. Otherwise, keep it empty.
+url: "https://kobesmallman.github.io" # No trailing slash here
+ # Replace with your domain if you have one or use the GitHub Pages URL.
 
-baseurl: "" # If your site is going to be hosted at a subpath, change this. Otherwise, keep it empty.
-url: "http://yourdomain.com" # Replace with your domain
-
+# Social Media and Usernames
 twitter_username: # Your Twitter handle, or remove this line if you don't want it to appear.
 github_username:  kobeSmallman # Your GitHub username
 
 # Build settings
 theme: minima # If you are using the minima theme and want to keep it, otherwise you can change or remove this.
 
+# Plugins
 plugins:
   - jekyll-feed # Keeps the feed plugin. Remove this line if you don't want an RSS feed.
 
-# Exclude from processing.
-# Add files or directories you don't want Jekyll to process.
-# By default, Jekyll does not process the listed items but you can uncomment and add to this list as needed.
+# Exclusions
 exclude:
   - README.md # Usually, you don't want your README file to be processed by Jekyll into your site output.
-  # - .sass-cache/
-  # - .jekyll-cache/
-  # - gemfiles/
-  # - Gemfile
-  # - Gemfile.lock
-  # - node_modules/
-  # - vendor/
+  # Add any additional files/folders you want Jekyll to ignore.
 
-# Additional configurations:
-permalink: /:title/ # This sets the URL structure for pages and posts.
+# Permalinks
+permalink: /:categories/:title/ # This sets the URL structure for pages and posts.
 
-# Sass configuration (if you're using Sass/SCSS)
+# Sass configuration
 sass:
   sass_dir: _sass
   style: compressed # 'compressed' for production or 'expanded' for development readability
+
+# Custom variables (you can access these via {{ site.var_name }} in your layouts)
+author_name: Kobe Smallman
+author_bio: Full Stack JavaScript Developer
+author_location: "Your Location"
+
+# Navigation settings
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Resume
+    url: /resume/
+  - title: Projects
+    url: /projects/

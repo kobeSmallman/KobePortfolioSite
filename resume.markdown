@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Resume
+permalink: /resume/
 ---
 
-## Resume
+# Resume
 
 ### Objective
 Seeking a position as a Jr. Full Stack JavaScript Developer where I can utilize my education and hands-on experience to contribute meaningfully to the development team.
