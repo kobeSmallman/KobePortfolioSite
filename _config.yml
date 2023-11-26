@@ -35,7 +35,7 @@ sass:
 # Custom variables (you can access these via {{ site.var_name }} in your layouts)
 author_name: Kobe Smallman
 author_bio: Full Stack JavaScript Developer
-author_location: "Your Location"
+author_location: "Lethbridge"
 
 # Navigation settings
 nav:
