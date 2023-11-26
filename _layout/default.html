@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.scss' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <style>
+        body {
+            background-color: blue !important;
+        }
+    </style>
+
 </head>
 <body>
     <header>
-        <!-- Navigation here -->
+        <h1>{{ site.title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+                <li><a href="{{ '/resume/' | relative_url }}">Resume</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -16,17 +29,7 @@
     </main>
 
     <footer>
-        <!-- Footer content here -->
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author_name }}</p>
     </footer>
-
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
-<footer>
-    <div class="container">
-        <p>&copy; {{ site.time | date: '%Y' }} Kobe Smallman. All rights reserved.</p>
-        <p>Email: Kobe4smallman@gmail.com | Phone: 587-370-1108</p>
-        <p>Address: 177 Princeton Crescent West, Lethbridge, Alberta, T1K 4S5</p>
-    </div>
-</footer>
-
 </html>
