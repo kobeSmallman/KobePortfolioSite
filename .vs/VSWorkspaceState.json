@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\assets\\css",
+    "\\assets\\js",
+    "\\layouts",
+    "\\_posts"
   ],
+  "SelectedNode": "\\assets\\js\\turn.js",
   "PreviewInSolutionExplorer": false
 }

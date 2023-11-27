@@ -1,0 +1,102 @@
+/* homepage.css */
+#book {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.page {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-image: url('../pages.png');
+    /* Prevent the image from repeating */
+    background-repeat: no-repeat;
+    /* Ensure the image covers the entire element */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.cover {
+    background-image: url('../bookFrontCover.png');
+    /* Prevent the image from repeating */
+    background-repeat: no-repeat;
+    /* Ensure the image covers the entire element */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+}
+.cover-back {
+    background-image: url('../bookBackCover.png'); /* Update this path to your actual image location */
+    /* Prevent the image from repeating */
+    background-repeat: no-repeat;
+    /* Ensure the image covers the entire element */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+}
+
+
+.cover-title {
+    margin-top: 200px; /* Adjust as needed */
+    font-size: 48px; /* Adjust as needed */
+    color: #d4af37;
+}
+
+.cover-subtitle {
+    margin-top: 20px; /* Adjust as needed */
+    font-size: 24px; /* Adjust as needed */
+    color: #d4af37;
+}
+
+.page-title {
+    font-size: 24px; /* Adjust as needed */
+    color: #333;
+}
+
+.turn-button {
+    position: fixed;
+    bottom: 20px;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#prev {
+    left: 20px;
+}
+
+#next {
+    right: 20px;
+}
+.book-cover {
+    background: url('path_to_your_cover_image.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* or any color that contrasts well with your cover */
+}
+
+.book-title {
+    font-size: 2rem; /* or whatever size you prefer */
+    margin-bottom: 0.5rem;
+}
+
+.book-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.book-author {
+    font-size: 1rem;
+    font-style: italic;
+}
